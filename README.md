@@ -26,9 +26,12 @@ cd ~/Téléchargements
 unzip DaVinci_Resolve_Studio_20.x.y_Linux.zip 
 ```
 
-### Changer placez-vous dans le dossier dezipper et changer la permission du fichier 
+### Changer placez-vous dans le dossier dezipper changer la permission du fichier 
 ```bash
 cd DaVinci_Resolve_20.x.y_Linux
 chmod +x DaVinci_Resolve_20.3.2_Linux.run
+```
+### Installer lancer l'installation de davinci resolve 
+```bash
 sudo SKIP_PACKAGE_CHECK=1 ./DaVinci_Resolve_20.3.2_Linux.run
 ```
