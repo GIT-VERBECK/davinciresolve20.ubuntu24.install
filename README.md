@@ -43,3 +43,10 @@ Si vous avez git, donc pas la peine de le reinstaller
 ```bash 
 sudo apt install git
 ```
+### Télechargement du script 
+
+Pour ce faire, clonner le Télechargement du script  dans votre /home (cd /home)
+
+```bash 
+sudo git clone https://gist.github.com/f11099a970b22e99f5e13468bd65afff.git
+```
