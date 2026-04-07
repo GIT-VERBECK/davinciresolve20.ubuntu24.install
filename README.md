@@ -11,7 +11,7 @@ Ce guide explique comment installer DaVinci Resolve 20 sur Ubuntu 24, en contour
 - sudo / droits administrateur
 - `curl` et `wget` installés
 
-## NB: remplacez (x et y) par la version du davinci resolve que vous avez Télechargement
+## NB: remplacez (x et y) par la version du davinci resolve que vous avez télechargé
 
 ---
  
