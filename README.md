@@ -12,7 +12,7 @@ Ce guide explique comment installer DaVinci Resolve 20 sur Ubuntu 24, en contour
 - `curl` et `wget` installés
 
 ---
-s
+ 
 ## Étapes d'installation
 
 ### 1. Installer les packages nécessaire 
@@ -24,4 +24,11 @@ sudo apt install libfuse2 libapr1 libaprutil1 libasound2t64 libglib2.0-0 libxcb-
 ```bash 
 cd ~/Téléchargements
 unzip DaVinci_Resolve_Studio_20.x.y_Linux.zip 
+```
+
+### Changer placez-vous dans le dossier dezipper et changer la permission du fichier 
+```bash
+cd DaVinci_Resolve_20.x.y_Linux
+chmod +x DaVinci_Resolve_20.3.2_Linux.run
+sudo SKIP_PACKAGE_CHECK=1 ./DaVinci_Resolve_20.3.2_Linux.run
 ```
