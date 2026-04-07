@@ -35,3 +35,11 @@ chmod +x DaVinci_Resolve_20.3.2_Linux.run
 ```bash
 sudo SKIP_PACKAGE_CHECK=1 ./DaVinci_Resolve_20.3.2_Linux.run
 ```
+
+## Installtion du script de lancement 
+
+Si vous avez git, donc pas la peine de le reinstaller 
+
+```bash 
+sudo apt install git
+```
